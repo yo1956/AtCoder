@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+ï»¿#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -39,7 +39,7 @@ int main() {
 
 	int cnt = 1;
 	
-	//ã’Tõ
+	//ä¸Šæ¢ç´¢
 	for (int i = X-2 ; i >= 0; i--) {
 		if (str[i][Y - 1] == str2[0][0])
 			cnt++;
@@ -50,7 +50,7 @@ int main() {
 	//cout << str2[0][0] << endl;
 	//cout << cnt << endl;
 	
-	//‰º’Tõ
+	//ä¸‹æ¢ç´¢
 	for (int i = X; i <= H-1; i++) {
 		if (str[i][Y-1] == str2[0][0])
 			cnt++;
@@ -60,7 +60,7 @@ int main() {
 
 //	cout << cnt << endl;
 
-	//¶’Tõ
+	//å·¦æ¢ç´¢
 	for (int i = Y - 2; i >= 0; i--) {
 		if (str[X-1][i] == str2[0][0])
 			cnt++;
@@ -70,7 +70,7 @@ int main() {
 
 	//cout << cnt << endl;
 
-	//‰E’Tõ
+	//å³æ¢ç´¢
 	for (int i = Y; i <= W-1; i++) {
 		if (str[X-1][i] == str2[0][0])
 			cnt++;
