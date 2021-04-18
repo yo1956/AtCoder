@@ -1,6 +1,8 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
+//途中で時間切れ
+
 int main() {
 	int N;
 	cin >> N;
