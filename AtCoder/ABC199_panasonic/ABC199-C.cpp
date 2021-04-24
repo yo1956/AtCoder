@@ -4,7 +4,7 @@ using namespace std;
 template <typename T> bool chmax(T& a, const T& b); // aよりもbが大きいならばaをbで更新する // 更新されたならばtrueを返す
 template <typename T> bool chmin(T& a, const T& b); // aよりもbが小さいならばaをbで更新する // 更新されたならばtrueを返す
 
-
+//TLE
 
 int main() {
 	int N,Q;
